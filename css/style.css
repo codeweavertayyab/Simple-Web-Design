@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+    h2{
+        color: white;
+    }
+}
+
+header {
+    height: 70px;
+    background-color: #0f046c;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+header ul a {
+    font-size: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+.bannercontainer {
+    height: 500px;
+    padding: 50px;
+    display: flex;
+}
+
+.bannercontainer h1 {
+    font-size: 50px;
+    color: #0f046c;
+}
+
+.bannerinfo {
+    padding-top: 100px;
+    height: 500px;
+    width: 50%;
+}
+
+.btnexplore {
+    height: 40px;
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 50px;
+    border: 1px solid #0f046c;
+    color: #0f046c !important;
+    font-size: 16px;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.btnexplore:hover {
+    background-color: #0f046c;
+    color: white !important;
+}
+
+.productssection {
+    height: 500px;
+    background-color: #DBE5FF;
+}
+
+.productssection h1 {
+    text-align: center;
+    font-size: 50px !important;
+    color: #0f046c;
+}
+
+.cardsection {
+    height: 400px !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardsection .card {
+    width: 350px;
+    height: 350px !important;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.card img {
+    height: 200px;
+}
+
+footer {
+    height: 250px;
+    background-color: #0f046c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a:hover{
+    text-decoration: underline white !important;
+}
